@@ -172,7 +172,14 @@ console.log("last animal: " + b);
 //5.3. Assign the length of an array to a variable
 var c = animals.length;
 console.log("the size of the array is: " + c );
+
 //5.4. Add an item to the end of the array
+var newAnimal = "bear";
+animals.push(newAnimal);
+console.log(animals);
+
+
+
 //5.5. Add an item to the start of the array
 //5.6. Assign the index of hedgehog to a variable
 
