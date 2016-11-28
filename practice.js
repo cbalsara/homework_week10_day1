@@ -131,66 +131,69 @@
 
 //Using examples that are different from above...
 
-//3.1 Assign a variable that is a number
-  var a = 25;
-  console.log(a);
+// //3.1 Assign a variable that is a number
+//   var a = 25;
+//   console.log(a);
 
-//3.2 Assign a variable that is a string
-  var b = "Testing String";
-  console.log(b);
+// //3.2 Assign a variable that is a string
+//   var b = "Testing String";
+//   console.log(b);
 
-//3.3 Assign a variable that is a boolean
-  var c = true;
-  console.log(c);
+// //3.3 Assign a variable that is a boolean
+//   var c = true;
+//   console.log(c);
 
-//3.4 Assign a variable that is an object
-var objectSample = "Sample object";
-  var d = objectSample;
-  console.log(d);
+// //3.4 Assign a variable that is an object
+// var objectSample = "Sample object";
+//   var d = objectSample;
+//   console.log(d);
 
-//Section 4
-//4.1 Write a statement that writes "hello" to the console if it's true and "bye" if it is false
+// //Section 4
+// //4.1 Write a statement that writes "hello" to the console if it's true and "bye" if it is false
 
-var checkAnswer = function(example){
-if (example)
-  return "Hello";
-else
-  return "Bye";
-}
-console.log(checkAnswer(false));
+// var checkAnswer = function(example){
+// if (example)
+//   return "Hello";
+// else
+//   return "Bye";
+// }
+// console.log(checkAnswer(false));
 
-//Section 5
-var animals = ["raccoon","hedgehog","mouse","gerbil"];
+// //Section 5
+// var animals = ["raccoon","hedgehog","mouse","gerbil"];
 
-//5.1. Assign the first element to a variable
-var a = animals[0];
-console.log("The first animal is a: " + a);
+// //5.1. Assign the first element to a variable
+// var a = animals[0];
+// console.log("The first animal is a: " + a);
 
-//5.2. Assign the last element to a variable
-var b = animals[3];
-console.log("The last animal is a: " + b);
+// //5.2. Assign the last element to a variable
+// var b = animals[3];
+// console.log("The last animal is a: " + b);
 
-//5.3. Assign the length of an array to a variable
-var c = animals.length;
-console.log("the size of the array is: " + c );
+// //5.3. Assign the length of an array to a variable
+// var c = animals.length;
+// console.log("the size of the array is: " + c );
 
-//5.4. Add an item to the end of the array
-var newAnimal = "bear";
-animals.push(newAnimal);
-console.log(animals);
+// //5.4. Add an item to the end of the array
+// var newAnimal = "bear";
+// animals.push(newAnimal);
+// console.log(animals);
 
-//5.5. Add an item to the start of the array
-var firstAnimal = "goat";
-animals.unshift(firstAnimal);
-console.log(animals);
+// //5.5. Add an item to the start of the array
+// var firstAnimal = "goat";
+// animals.unshift(firstAnimal);
+// console.log(animals);
 
-//5.6. Assign the index of hedgehog to a variable
-var newPosition = animals.indexOf("hedgehog");
-console.log("The hedghog's new position is: " + newPosition);
+// //5.6. Assign the index of hedgehog to a variable
+// var newPosition = animals.indexOf("hedgehog");
+// console.log("The hedghog's new position is: " + newPosition);
 
 // //Section 6
 
 // //6.1 Create an array of 5 vegetables
+
+myArray = [ "onion", "lettuce", "carrot", "potato", "cucumber" ]
+console.log(myArray);
 // //6.2 Loop over the array and write to the console using a "while"
 // //6.3 Loop again using a "for" with a counter
 // //6.4 Loop again using a "for in"
