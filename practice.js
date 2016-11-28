@@ -73,15 +73,15 @@
 //   console.log(checkToSee(NaN));
 
 // // [];
-// // 
+// true
 
-// // var checkToSee = function([]){
-// //   if ([])
-// //     return true;
-// //   else
-// //     return false;
-// // }
-// // console.log( checkToSee([]) );
+var checkToSee = function(array){
+  if (array)
+    return true;
+  else
+    return false;
+}
+console.log( checkToSee([]) );
 
 // // {};
 // // 
@@ -183,8 +183,9 @@ var firstAnimal = "goat";
 animals.unshift(firstAnimal);
 console.log(animals);
 
-
 //5.6. Assign the index of hedgehog to a variable
+var newPosition = animals.indexOf("hedgehog");
+console.log(newPosition);
 
 // //Section 6
 
