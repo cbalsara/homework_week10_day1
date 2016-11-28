@@ -75,24 +75,24 @@
 // // [];
 // true
 
-var checkToSee = function(array){
-  if (array)
-    return true;
-  else
-    return false;
-}
-console.log( checkToSee([]) );
+// var checkToSee = function(array){
+//   if (array)
+//     return true;
+//   else
+//     return false;
+// }
+// console.log( checkToSee([]) );
 
-// // {};
-// true 
+// // // {};
+// // true 
 
-var checkToSee = function(hash){
-  if (hash)
-    return true;
-  else
-    return false;
-}
-console.log( checkToSee({}) );
+// var checkToSee = function(hash){
+//   if (hash)
+//     return true;
+//   else
+//     return false;
+// }
+// console.log( checkToSee({}) );
 
 
 // // undefined;
@@ -164,11 +164,11 @@ var animals = ["raccoon","hedgehog","mouse","gerbil"];
 
 //5.1. Assign the first element to a variable
 var a = animals[0];
-console.log("animal 1: " + a);
+console.log("The first animal is a: " + a);
 
 //5.2. Assign the last element to a variable
 var b = animals[3];
-console.log("last animal: " + b);
+console.log("The last animal is a: " + b);
 
 //5.3. Assign the length of an array to a variable
 var c = animals.length;
@@ -186,7 +186,7 @@ console.log(animals);
 
 //5.6. Assign the index of hedgehog to a variable
 var newPosition = animals.indexOf("hedgehog");
-console.log(newPosition);
+console.log("The hedghog's new position is: " + newPosition);
 
 // //Section 6
 
