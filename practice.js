@@ -127,9 +127,9 @@
 // console.log( checkToSee(0) );
 
 
-//Section 3
+// Section 3
 
-//Using examples that are different from above...
+// Using examples that are different from above...
 
 // //3.1 Assign a variable that is a number
 //   var a = 25;
@@ -192,66 +192,77 @@
 
 // //6.1 Create an array of 5 vegetables
 
-var myArray = [ "onion", "lettuce", "carrot", "potato", "cucumber" ]
-// console.log(myArray);
-//6.2 Loop over the array and write to the console using a "while"
-var newArray = 0;
-while (newArray < myArray.length){
-  console.log( "veg: " + myArray[newArray]);
-  newArray ++;
-}
+// var myArray = [ "onion", "lettuce", "carrot", "potato", "cucumber" ]
+// // console.log(myArray);
+// //6.2 Loop over the array and write to the console using a "while"
+// var newArray = 0;
+// while (newArray < myArray.length){
+//   console.log( "veg: " + myArray[newArray]);
+//   newArray ++;
+// }
 
-//6.3 Loop again using a "for" with a counter
-function allVeg(exampleArray){
+// //6.3 Loop again using a "for" with a counter
+// function allVeg(exampleArray){
+//   i = 0;
+//   for (i; i < exampleArray.length; i++){
+//     console.log( exampleArray[i] )
+//   }
+// }
+// allVeg( myArray );
+
+// Shorthand way of the above 
+// for (var veg of myArray){
+//   console.log(veg);
+// }
+
+// //6.4 Loop again using a "for in"
+// for(var keyNum in myArray){
+//   console.log("veg number " + keyNum + " = " + myArray[keyNum] );
+// }
+
+//Section 7
+var accounts = [
+  { name: 'jay',
+    amount: 125.50,
+    type: 'personal'
+  },
+  { name: 'val',
+    amount: 55125.10,
+    type: 'business'
+  },
+  { name: 'marc',
+    amount: 400.00,
+    type: 'personal'
+  },
+  { name: 'keith',
+    amount: 220.25,
+    type: 'business'
+  },
+  { name: 'rick',
+    amount: 1.00,
+    type: 'personal'
+  },
+];
+//7.1 Calculate the total cash in accounts
+function totalAmount(accounts){
   i = 0;
-  for (i; i < exampleArray.length; i++){
-    console.log( exampleArray[i] )
+  for (i; i < accounts.length; i++){
+    console.log(accounts[i].amount)
   }
 }
-allVeg( myArray );
+totalAmount(accounts);
+  
 
-Shorthand way of the above 
-for (var veg of myArray){
-  console.log(veg);
-}
-
-//6.4 Loop again using a "for in"
-for(var keyNum in myArray){
-  console.log("veg number " + keyNum + " = " + myArray[keyNum] );
-}
-
-// //Section 7
-// var accounts = [
-//   { name: 'jay',
-//     amount: 125.50,
-//     type: 'personal'
-//   },
-//   { name: 'val',
-//     amount: 55125.10,
-//     type: 'business'
-//   },
-//   { name: 'marc',
-//     amount: 400.00,
-//     type: 'personal'
-//   },
-//   { name: 'keith',
-//     amount: 220.25,
-//     type: 'business'
-//   },
-//   { name: 'rick',
-//     amount: 1.00,
-//     type: 'personal'
-//   },
-// ];
-// //7.1 Calculate the total cash in accounts
-// //7.2 Find the amount of money in the account with the largest balance
-// //7.3 Find the name of the account with the smallest balance
-// //7.4 Calculate the average bank account value
-// //7.5 Find the value of marcs bank account
-// //7.6 Find the holder of the largest bank account
-// //7.7 Calculate the total cash in business accounts
-// //7.8 Find the largest personal account owner
+//7.2 Find the amount of money in the account with the largest balance
 
 
-// //Section 8
-// //Assign a variable myPerson to a hash, giving them a name, height, favourite food and an eat method
+//7.3 Find the name of the account with the smallest balance
+//7.4 Calculate the average bank account value
+//7.5 Find the value of marcs bank account
+//7.6 Find the holder of the largest bank account
+//7.7 Calculate the total cash in business accounts
+//7.8 Find the largest personal account owner
+
+
+//Section 8
+//Assign a variable myPerson to a hash, giving them a name, height, favourite food and an eat method
