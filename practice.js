@@ -178,9 +178,12 @@ var newAnimal = "bear";
 animals.push(newAnimal);
 console.log(animals);
 
-
-
 //5.5. Add an item to the start of the array
+var firstAnimal = "goat";
+animals.unshift(firstAnimal);
+console.log(animals);
+
+
 //5.6. Assign the index of hedgehog to a variable
 
 // //Section 6
