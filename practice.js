@@ -194,31 +194,31 @@
 
 var myArray = [ "onion", "lettuce", "carrot", "potato", "cucumber" ]
 // console.log(myArray);
-// //6.2 Loop over the array and write to the console using a "while"
-var myArray = 0;
-while (myArray < Array.length){
-  console.log( "veg: " + myArray);
-  myArray++;
+//6.2 Loop over the array and write to the console using a "while"
+var newArray = 0;
+while (newArray < myArray.length){
+  console.log( "veg: " + myArray[newArray]);
+  newArray ++;
 }
 
-// // //6.3 Loop again using a "for" with a counter
-// function allVeg(exampleArray){
-//   i = 0;
-//   for (i; i < exampleArray.length; i++){
-//     console.log( exampleArray[i] )
-//   }
-// }
-// allVeg( myArray );
+//6.3 Loop again using a "for" with a counter
+function allVeg(exampleArray){
+  i = 0;
+  for (i; i < exampleArray.length; i++){
+    console.log( exampleArray[i] )
+  }
+}
+allVeg( myArray );
 
-// Shorthand way of the above 
-// for (var veg of myArray){
-//   console.log(veg);
-// }
+Shorthand way of the above 
+for (var veg of myArray){
+  console.log(veg);
+}
 
-// // //6.4 Loop again using a "for in"
-// for(var keyNum in myArray){
-//   console.log("veg name" + keyNum + " = " + myArray[keyNum] );
-// }
+//6.4 Loop again using a "for in"
+for(var keyNum in myArray){
+  console.log("veg number " + keyNum + " = " + myArray[keyNum] );
+}
 
 // //Section 7
 // var accounts = [
