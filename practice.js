@@ -84,14 +84,15 @@ var checkToSee = function(array){
 console.log( checkToSee([]) );
 
 // // {};
-// // 
-// // var checkToSee = function({}){
-// //   if ({})
-// //     return true;
-// //   else
-// //     return false;
-// // }
-// // console.log( checkToSee({}) );
+// true 
+
+var checkToSee = function(hash){
+  if (hash)
+    return true;
+  else
+    return false;
+}
+console.log( checkToSee({}) );
 
 
 // // undefined;
